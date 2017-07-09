@@ -1,0 +1,7 @@
+No windows - Baixe o executavel normalmente e instale..
+a seguir vá no cmd e digite simplecv se deh erro faça o seguinte..
+edite as variaveis de ambiente de acordo ao print tirado na pasta...
+vah no cmd e digite pip install ipython==4
+feche o cmd e abre.. digite simplecv
+apos isso execute um codigo qualquer se deh erro (you need the python imaging library  to save by filehandle)
+baixe essa aplicação versão 1.7 http://www.pythonware.com/products/pil/

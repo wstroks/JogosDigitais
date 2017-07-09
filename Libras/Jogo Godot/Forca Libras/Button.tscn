@@ -1,0 +1,549 @@
+[gd_scene load_steps=28 format=1]
+
+[ext_resource path="res://buttonSelect.gd" type="Script" id=1]
+[ext_resource path="res://img/letras/letra-A.png" type="Texture" id=2]
+[ext_resource path="res://img/letras/letra-B.png" type="Texture" id=3]
+[ext_resource path="res://img/letras/letra-C.png" type="Texture" id=4]
+[ext_resource path="res://img/letras/letra-D.png" type="Texture" id=5]
+[ext_resource path="res://img/letras/letra-E.png" type="Texture" id=6]
+[ext_resource path="res://img/letras/letra-F.png" type="Texture" id=7]
+[ext_resource path="res://img/letras/letra-G.png" type="Texture" id=8]
+[ext_resource path="res://img/letras/letra-H.png" type="Texture" id=9]
+[ext_resource path="res://img/letras/letra-I.png" type="Texture" id=10]
+[ext_resource path="res://img/letras/letra-J.PNG" type="Texture" id=11]
+[ext_resource path="res://img/letras/letra-K.png" type="Texture" id=12]
+[ext_resource path="res://img/letras/letra-L.png" type="Texture" id=13]
+[ext_resource path="res://img/letras/letra-M.png" type="Texture" id=14]
+[ext_resource path="res://img/letras/letra-N.png" type="Texture" id=15]
+[ext_resource path="res://img/letras/letra-O.png" type="Texture" id=16]
+[ext_resource path="res://img/letras/letra-P.png" type="Texture" id=17]
+[ext_resource path="res://img/letras/letra-Q.png" type="Texture" id=18]
+[ext_resource path="res://img/letras/letra-R.png" type="Texture" id=19]
+[ext_resource path="res://img/letras/letra-S.png" type="Texture" id=20]
+[ext_resource path="res://img/letras/letra-T.png" type="Texture" id=21]
+[ext_resource path="res://img/letras/letra-U.png" type="Texture" id=22]
+[ext_resource path="res://img/letras/letra-V.png" type="Texture" id=23]
+[ext_resource path="res://img/letras/letra-W.png" type="Texture" id=24]
+[ext_resource path="res://img/letras/letra-X.png" type="Texture" id=25]
+[ext_resource path="res://img/letras/letra-Y.png" type="Texture" id=26]
+[ext_resource path="res://img/letras/letra-Z.png" type="Texture" id=27]
+
+[node name="Panel" type="Panel"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 37.0
+margin/top = 361.0
+margin/right = 992.0
+margin/bottom = 514.0
+
+[node name="Control" type="Control" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 40.0
+margin/bottom = 40.0
+script/script = ExtResource( 1 )
+
+[node name="bntA" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 11.0
+margin/top = 7.0
+margin/right = 73.0
+margin/bottom = 68.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 2 )
+flat = false
+
+[node name="bntB" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 83.0
+margin/top = 7.0
+margin/right = 145.0
+margin/bottom = 68.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 3 )
+flat = false
+
+[node name="bntC" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 155.0
+margin/top = 8.0
+margin/right = 217.0
+margin/bottom = 69.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 4 )
+flat = false
+
+[node name="bntD" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 227.0
+margin/top = 8.0
+margin/right = 289.0
+margin/bottom = 69.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 5 )
+flat = false
+
+[node name="bntE" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 301.0
+margin/top = 8.0
+margin/right = 363.0
+margin/bottom = 69.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 6 )
+flat = false
+
+[node name="bntF" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 373.0
+margin/top = 8.0
+margin/right = 435.0
+margin/bottom = 69.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 7 )
+flat = false
+
+[node name="bntG" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 445.0
+margin/top = 10.0
+margin/right = 507.0
+margin/bottom = 71.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 8 )
+flat = false
+
+[node name="bntH" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 517.0
+margin/top = 10.0
+margin/right = 579.0
+margin/bottom = 71.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 9 )
+flat = false
+
+[node name="bntI" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 589.0
+margin/top = 11.0
+margin/right = 651.0
+margin/bottom = 72.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 10 )
+flat = false
+
+[node name="bntJ" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 661.0
+margin/top = 11.0
+margin/right = 723.0
+margin/bottom = 72.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 11 )
+flat = false
+
+[node name="bntK" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 735.0
+margin/top = 11.0
+margin/right = 797.0
+margin/bottom = 72.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 12 )
+flat = false
+
+[node name="bntL" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 807.0
+margin/top = 11.0
+margin/right = 869.0
+margin/bottom = 72.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 13 )
+flat = false
+
+[node name="bntM" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 879.0
+margin/top = 13.0
+margin/right = 941.0
+margin/bottom = 74.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 14 )
+flat = false
+
+[node name="bntN" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 11.0
+margin/top = 80.0
+margin/right = 73.0
+margin/bottom = 141.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 15 )
+flat = false
+
+[node name="bntO" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 83.0
+margin/top = 81.0
+margin/right = 145.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 16 )
+flat = false
+
+[node name="bntP" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 155.0
+margin/top = 81.0
+margin/right = 217.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 17 )
+flat = false
+
+[node name="bntQ" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 229.0
+margin/top = 81.0
+margin/right = 291.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 18 )
+flat = false
+
+[node name="bntR" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 301.0
+margin/top = 81.0
+margin/right = 363.0
+margin/bottom = 142.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 19 )
+flat = false
+
+[node name="bntS" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 373.0
+margin/top = 83.0
+margin/right = 435.0
+margin/bottom = 144.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 20 )
+flat = false
+
+[node name="bntT" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 445.0
+margin/top = 83.0
+margin/right = 507.0
+margin/bottom = 144.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 21 )
+flat = false
+
+[node name="bntU" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 517.0
+margin/top = 84.0
+margin/right = 579.0
+margin/bottom = 145.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 22 )
+flat = false
+
+[node name="bntV" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 589.0
+margin/top = 84.0
+margin/right = 651.0
+margin/bottom = 145.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 23 )
+flat = false
+
+[node name="bntW" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 663.0
+margin/top = 84.0
+margin/right = 725.0
+margin/bottom = 145.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 24 )
+flat = false
+
+[node name="bntX" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 735.0
+margin/top = 84.0
+margin/right = 797.0
+margin/bottom = 145.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 25 )
+flat = false
+
+[node name="bntY" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 807.0
+margin/top = 85.0
+margin/right = 869.0
+margin/bottom = 146.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 26 )
+flat = false
+
+[node name="bntZ" type="Button" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 879.0
+margin/top = 86.0
+margin/right = 941.0
+margin/bottom = 147.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 27 )
+flat = false
+
+[node name="Label" type="Label" parent="Control"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 440.0
+margin/top = 165.0
+margin/right = 593.0
+margin/bottom = 209.0
+text = "Letra: "
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Panel" type="Panel" parent="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 172.0
+margin/top = -90.0
+margin/right = 780.0
+margin/bottom = -13.0
+
+[connection signal="pressed" from="Control/bntA" to="Control" method="_on_bntA_pressed"]
+
+[connection signal="pressed" from="Control/bntB" to="Control" method="_on_bntB_pressed"]
+
+[connection signal="pressed" from="Control/bntC" to="Control" method="_on_bntC_pressed"]
+
+[connection signal="pressed" from="Control/bntD" to="Control" method="_on_bntD_pressed"]
+
+[connection signal="pressed" from="Control/bntE" to="Control" method="_on_bntE_pressed"]
+
+[connection signal="pressed" from="Control/bntF" to="Control" method="_on_bntF_pressed"]
+
+[connection signal="pressed" from="Control/bntG" to="Control" method="_on_bntG_pressed"]
+
+[connection signal="pressed" from="Control/bntH" to="Control" method="_on_bntH_pressed"]
+
+[connection signal="pressed" from="Control/bntI" to="Control" method="_on_bntI_pressed"]
+
+[connection signal="pressed" from="Control/bntJ" to="Control" method="_on_bntJ_pressed"]
+
+[connection signal="pressed" from="Control/bntK" to="Control" method="_on_bntK_pressed"]
+
+[connection signal="pressed" from="Control/bntL" to="Control" method="_on_bntL_pressed"]
+
+[connection signal="pressed" from="Control/bntM" to="Control" method="_on_bntM_pressed"]
+
+[connection signal="pressed" from="Control/bntN" to="Control" method="_on_bntN_pressed"]
+
+[connection signal="pressed" from="Control/bntO" to="Control" method="_on_bntO_pressed"]
+
+[connection signal="pressed" from="Control/bntP" to="Control" method="_on_bntP_pressed"]
+
+[connection signal="pressed" from="Control/bntQ" to="Control" method="_on_bntQ_pressed"]
+
+[connection signal="pressed" from="Control/bntR" to="Control" method="_on_bntR_pressed"]
+
+[connection signal="pressed" from="Control/bntS" to="Control" method="_on_bntS_pressed"]
+
+[connection signal="pressed" from="Control/bntT" to="Control" method="_on_bntT_pressed"]
+
+[connection signal="pressed" from="Control/bntU" to="Control" method="_on_bntU_pressed"]
+
+[connection signal="pressed" from="Control/bntV" to="Control" method="_on_bntV_pressed"]
+
+[connection signal="pressed" from="Control/bntW" to="Control" method="_on_bntW_pressed"]
+
+[connection signal="pressed" from="Control/bntX" to="Control" method="_on_bntX_pressed"]
+
+[connection signal="pressed" from="Control/bntY" to="Control" method="_on_bntY_pressed"]
+
+[connection signal="pressed" from="Control/bntZ" to="Control" method="_on_bntZ_pressed"]
+
+
